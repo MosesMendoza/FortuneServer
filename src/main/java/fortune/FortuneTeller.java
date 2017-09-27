@@ -13,7 +13,7 @@ public class FortuneTeller {
     return this.id;
   }
 
-  public String tellFortune(){
-    return "You will have an opportunity to prove yourself soon, " + this.requesterName;
+  public String getFortune(){
+    return "You will have a very wonderful day today, " + this.requesterName + "!";
   }
 }

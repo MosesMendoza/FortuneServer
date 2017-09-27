@@ -8,7 +8,7 @@ public class FortuneTellerTest {
   @Test
   public void shouldTellYourFortune() {
     FortuneTeller teller = new FortuneTeller(0, "moses");
-    assertEquals("You will have an opportunity to prove yourself soon, moses", teller.tellFortune());
+    assertEquals("You will have a very wonderful day today, moses!", teller.getFortune());
   }
 
   @Test
