@@ -13,10 +13,6 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 
-bootRepackage {
-    mainClass = 'fortune.FortuneTeller'
-}
-
 jar {
     baseName = 'fortune-service'
     version =  '0.1.0'
